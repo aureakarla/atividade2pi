@@ -1,0 +1,119 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f0f9; /* Fundo lilás claro */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d6a4a4; /* Lilás claro */
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e0d0f2; /* Lilás mais claro para hover */
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #d6a4a4; /* Lilás claro */
+}
+
+/* Formulário */
+form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 150px; /* Ajuste a largura conforme necessário */
+    margin-right: 10px;
+    text-align: right;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: calc(100% - 160px); /* Ajusta a largura do campo para caber ao lado do label */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a54cc;
+}
+
+/* Rodapé */
+footer {
+    background-color: #d6a4a4; /* Lilás claro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
